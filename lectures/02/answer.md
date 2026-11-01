@@ -1,6 +1,6 @@
 # 第2回 解答
 
-## 演習
+## 演習　取り組んだレベル：基礎
 
 - 使ったモデル・設定（`result.json` の `config` から）：`Qwen/Qwen3.5-0.8B`
 - 自分で学習を実行したか（`executed_training_myself`）：はい 
