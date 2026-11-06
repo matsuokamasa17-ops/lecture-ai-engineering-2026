@@ -27,6 +27,7 @@ from pydantic_ai.providers.google import GoogleProvider
 
 from app import tools
 from app.config import MODEL, api_error_message, get_api_key
+from app.tools import get_lecture_summary, make_quiz, search_glossary
 
 INSTRUCTIONS = """\
 あなたはAIエンジニアリング講座（AIE2026）の学習支援エージェントです。
