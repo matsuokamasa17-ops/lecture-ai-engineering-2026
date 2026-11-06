@@ -16,6 +16,10 @@ def make_quiz(lecture: int) -> str:
     「第2回の確認問題を出して」のように、
     復習用の問題を求められたときに使う。
     """
+    # 1. load_glossary() から lecture が一致する用語を集める
+    # 2. random.choice で1つ選ぶ
+    # 3. json.dumps などで問題と答えを返す
+
     terms = [
         entry for entry in load_glossary()
         if entry["lecture"] == lecture
